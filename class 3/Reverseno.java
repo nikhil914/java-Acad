@@ -1,8 +1,15 @@
+import java.util.Scanner;
+
+
 class Reverseno{
 	
 	public static void main(String[] args) {
 		int b,rev=0;
-		int n=1234;
+		Scanner	input=new Scanner(System.in);
+		System.out.println("Enter no to Reverse");
+		int n = input.nextInt();
+
+		
 		
 		System.out.println("No to be reversed:"+n);
 		

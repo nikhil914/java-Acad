@@ -1,8 +1,14 @@
+import java.util.Scanner;
 class Palindrome{
 	public static void main(String[] args) {
 		int b,i,n,rev=0;
-		int limit=9999;
-		int a=1000;
+		Scanner in=new Scanner(System.in);
+		System.out.println("Enter upper limit");
+		int limit=in.nextInt();
+		System.out.println("Enter lower limit");
+		int a=in.nextInt();
+
+
 		System.out.println("Palindrome no between "+a+" and "+limit);
 		for (i=a;i<=limit;i++ ) {
 			n=i;
