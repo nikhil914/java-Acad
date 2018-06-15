@@ -7,6 +7,7 @@ class Palindrome{
 		int limit=in.nextInt();
 		System.out.println("Enter lower limit");
 		int a=in.nextInt();
+		
 
 
 		System.out.println("Palindrome no between "+a+" and "+limit);
