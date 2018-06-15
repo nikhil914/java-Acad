@@ -1,0 +1,29 @@
+$ git config --global user.name "Name"
+$ git config --global user.email "email@gmail.com"
+$ git config --global color.ui true
+$ git config --list
+$ git init
+$ git status
+$ git add my_new_file.txt
+$ git add my-file.ts another-file.js new_file.rb
+$ git add .
+$ git add --all
+$ git rm --cached my-file.ts
+$ rm 'my_file.ts'
+$ git reset another-file.js
+$ git commit -m "Add three files"
+$ git reset --soft HEAD^
+$ git commit -a -m "Do something once more"
+$ git remote add origin https://github.com/YourUsername/some-small-app.git
+$ git push -u origin master
+$ git remote add origin git@github.com:YourUsername/your-app.git
+$ git remote -v
+$ git clone git@github.com:YourUsername/your-app.git
+$ git clone git@github.com:YourUsername/your-app.git this-name-is-much-better
+$ git branch
+$ git branch user-profile
+$ git merge user-profile
+$ git checkout -b admin-panel
+
+
+
