@@ -7,7 +7,7 @@ class Occur{
 	String a1=sc.nextLine();
 		System.out.print("Enter Second String:");
 	String a2=sc.nextLine();
-	if (a1.equals(a2)==true) {
+	if (a1.contains(a2)==true) {
 		System.out.println("A1 contains A2");
 	}
 	else{

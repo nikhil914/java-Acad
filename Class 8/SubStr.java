@@ -8,12 +8,13 @@ System.out.println(s.charAt(i));
 	}
 	for (int a=0;a<s.length() ;a++ ) 
 		for (int b=0;b<s.length() ;b++ ) {
+			if(a!=b){
 			System.out.print(s.charAt(b));			
 		
 		System.out.println(s.charAt(a));
 
 		
-	}
+	}}
 	System.out.println(s);
 	
 }
