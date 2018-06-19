@@ -1,20 +1,30 @@
 public class NullArg
 {
-    public void fun(Integer i)
-    {
-        System.out.println("fun(Integer ) ");
+   
+
+    static void print(int x){
+               System.out.println("Print int :"+x);
     }
-    public void fun(float j)
-    {
-        System.out.println("fun(float ) ");
+
+    static void print(float x){
+               System.out.println("Print flot :"+x);
     }
- 
-    public static void main(String [] args)
-    {
-        NullArg mv = new NullArg();
-         
-        Integer arg = null;
- 
-        mv.fun(arg);
+
+
+
+
+    public static void main(String args[]){
+
+        int m=1;
+        float n=8F;
+
+       
+        NullArg.print(m);
+        NullArg.print(n);
+
     }
+
+
+
 }
+
