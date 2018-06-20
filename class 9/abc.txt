@@ -1,0 +1,5 @@
+Its first line of the program
+so now its working
+it can print every text on it
+till end of file
+i.e -1
