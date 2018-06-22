@@ -1,12 +1,18 @@
 import java.util.*;
 import java.io.*;
 class Subfolder2{
-	public static void main(String[] args) {
+	public static void main(String[] args)throws Exception {
 		File currentDir = new File("."); 
 		display(currentDir);
 		File file = new File(".");
         listDirectory(file);
         System.out.println("GEtting list-----"+fileList);
+        PrintWriter pw = new PrintWriter("a.csv");
+        
+        pw.print(fileList);
+        pw.flush();
+
+
 	}
 
 	public static void display(File dir) {
@@ -38,7 +44,7 @@ class Subfolder2{
             }
         }
         else {
-            fileList.add(file.getPath());
+            fileList.add(file.getAbsolutePath()+System.lineSeparator());
         }
     }
 }

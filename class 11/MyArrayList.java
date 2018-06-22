@@ -1,6 +1,6 @@
-public class MyArrayList {
+public class MyArrayList { 
 
-	private static final int Old_size=4;
+	private static final int Old_size=10;
 	private Object data[];
 	private int count;
 	private int size;
@@ -23,9 +23,9 @@ public class MyArrayList {
 	}
 	
 	private void increase() {
-		//this.size=(int)(Old_size*1.5f);
-		this.size=this.size+Old_size;
-		Object newData[]=new Object[this.size];
+		this.size=(int)(Old_size*1.5f);
+		//this.size=2*Old_size;
+		Object newData[]=new Object[this.size]; //System.arraycopy(src,01)
 		for(int i=0; i<data.length;i++){
 			newData[i]=data[i];
 		}
